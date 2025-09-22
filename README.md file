@@ -1,0 +1,53 @@
+# Hybrid Wireless and Wired LAN – Cisco Packet Tracer
+
+This repository contains a **Cisco Packet Tracer project file** (`WIRELESS LAN/WIRELESS NETWORK.pkt`) that demonstrates the design and implementation of a **hybrid Local Area Network (LAN)** consisting of both **wireless** and **wired connections**.  
+
+The project illustrates how different end devices (PCs, laptops, and smartphones) can communicate seamlessly in a single LAN through an **Access Point** and a **Switch**.
+
+---
+
+## 📂 Project Files
+- **`WIRELESS NETWORK.pkt`** → Cisco Packet Tracer file containing the network topology.
+
+---
+
+## 🛠 Requirements
+
+- [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer) – version **7.3 or later**  
+- A computer running **Windows, Linux, or macOS**  
+- Basic knowledge of **LAN, IP addressing, and Packet Tracer simulation**  
+
+---
+
+## 📡 Network Topology
+
+The project simulates a **hybrid LAN**:
+
+### 🔹 Wireless Section
+- **Access Point (AccessPoint0)** → Provides Wi-Fi coverage  
+- **PC0** (PC-PT) → Connected wirelessly  
+- **Laptop0** (Laptop-PT) → Connected wirelessly  
+- **Smartphone2** (Smartphone-PT) → Connected wirelessly  
+
+### 🔹 Wired Section
+- **Switch0** → Central device for wired connections  
+- **PC1** (PC-PT) → Connected via Ethernet  
+- **Laptop2** (Laptop-PT) → Connected via Ethernet  
+- **Laptop3** (Laptop-PT) → Connected via Ethernet  
+
+---
+
+## 🌐 Device Interconnection
+
+- The **Access Point** connects to the **Switch**, bridging the **wireless** and **wired** sections of the LAN.  
+- All devices, regardless of connection type, belong to the same network and can communicate (e.g., via `ping`).  
+- Demonstrates a **real-world office or campus LAN** setup where both Wi-Fi and Ethernet coexist.
+
+---
+
+## 🚀 How to Use
+
+1. **Clone this repository**  
+   ```bash
+   git clone https://github.com/<your-username>/<your-repo-name>.git
+   cd <your-repo-name>
